@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Clave</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Validación de Clave Segura</h1>
+        <form id="formulario">
+            <label for="nombreUsuario">Nombre de usuario:</label>
+            <input type="text" id="nombreUsuario" placeholder="Escribe tu nombre" required>
+            
+            <label for="clave">Clave:</label>
+            <input type="password" id="clave" placeholder="Escribe tu clave" required>
+            
+            <button type="submit">Validar</button>
+        </form>
+
+        <div id="resultado"></div>
+    </div>
+    
+    <script type="module" src="src/main.ts"></script>
+</body>
+</html>
